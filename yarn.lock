@@ -1,0 +1,160 @@
+# yarn.lock
+
+babel-core@^6.26.0:
+  version "6.26.3"
+  resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-6.26.3.tgz"
+  integrity sha512-xW0pGSFviMlUqkt2uBxxIDb7Nf5PY9zzmBa/8a4PtRxzLfRTBsf7qk8NHMeG5mDwU2UnvXDmjfwX83Sk5jAyvg==
+  dependencies:
+    babel-code-frame "^6.26.0"
+    babel-generator "^6.26.0"
+    babel-helpers "^6.24.1"
+    babel-messages "^6.23.0"
+    babel-register "^6.26.0"
+    babel-runtime "^6.26.0"
+    babel-template "^6.26.0"
+    babel-traverse "^6.26.0"
+    babel-types "^6.26.0"
+    babylon "^6.18.0"
+    convert-source-map "^1.5.1"
+    debug "^2.6.9"
+    json5 "^0.5.1"
+    lodash "^4.17.4"
+    minimatch "^3.0.4"
+    path-is-absolute "^1.0.1"
+    private "^0.1.8"
+    slash "^1.0.0"
+    source-map "^0.5.7"
+
+lodash@^3.10.1:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz"
+  integrity sha1-WaTPuU28Z7T+q5RpUJWqCk4jxTs=
+
+request@^2.88.0:
+  version "2.88.2"
+  resolved "https://registry.yarnpkg.com/request/-/request-2.88.2.tgz"
+  integrity sha512-6bznni0aLwwLb2Tzajp1zZ6aDd+OzO3OG5GNE/npHoTCYIDpYqftUNgk8p5uvW+czRRstwfLZls3D6Q7k7MRCA==
+  dependencies:
+    aws-sign2 "~0.7.0"
+    aws4 "^1.8.0"
+    caseless "~0.12.0"
+    combined-stream "~1.0.6"
+    extend "~3.0.2"
+    forever-agent "~0.6.1"
+    form-data "~2.3.2"
+    har-validator "~5.1.0"
+    http-signature "~1.2.0"
+    is-typedarray "~1.0.0"
+    isstream "~0.1.2"
+    json-stringify-safe "~5.0.1"
+    mime-types "~2.1.19"
+    oauth-sign "~0.9.0"
+    performance-now "^2.1.0"
+    qs "~6.5.2"
+    safe-buffer "^5.1.2"
+    tough-cookie "~2.4.3"
+    tunnel-agent "^0.6.0"
+    uuid "^3.3.2"
+
+underscore@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.1.tgz"
+  integrity sha512-4+yoI4ya0Xt6gYmTSzgnct9oIa7Emmgkt1UTRt3M94IS2no9MQO5+MW6rMiUNoWyt5e/PY1aKqiNfEog4WMBZA==
+
+debug@^2.6.9:
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz"
+  integrity sha512-pGzOeXCjfI3FMGT3bySX/HzYd0Hp4PLPnlQ7AAhb8NMoOV9h5I4+sKFrn51pTkewOUHIT6EYWqWVfLW8UoyOhg==
+  dependencies:
+    ms "2.0.0"
+
+react@^16.8.6:
+  version "16.8.6"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz"
+  integrity sha512-0XRxz3XcGb7eU8t5y6Tc2c21fpFbrr76EU4+Tq4AyR0RVYd2i5hU6Qkl9y1rzeHeRRrbLDciFiAfG5Dk6XkGfA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.13.6"
+
+react-dom@^16.8.6:
+  version "16.8.6"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz"
+  integrity sha512-0YLy4I8cIuCJUXRt62OZVV72l7egNOm67A0W5MFPlVRNOeqBOQQtI7pxY1rzeHeRRrbLDciFiAfG5Dk6XkGfA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.13.6"
+
+typescript@^3.9.9:
+  version "3.9.9"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.9.tgz"
+  integrity sha512-PzN5Ii3+9bZm6cy6htVOHnOmopzABAnmU/Y96Pb4g9brp6xkzkfW8miB5TO5bO3jGbZB/JVTtWvTv6n4M2+1UQ==
+
+webpack@^4.44.2:
+  version "4.44.2"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.44.2.tgz"
+  integrity sha512-D0rVVZJYIOaUIU0MuE7DGCcmW3jcx7mnNYZtkq0k2A6XIs7xq8jZSH/2Ul+gn6mD5o6NUhAtCm7KRUQsM1Ky8Q==
+  dependencies:
+    acorn "^6.4.1"
+    ajv "^6.10.2"
+    ajv-keywords "^3.4.1"
+    chrome-trace-event "^1.0.0"
+    enhanced-resolve "^4.1.1"
+    eslint-scope "^4.0.3"
+    json-parse-better-errors "^1.0.2"
+    loader-runner "^2.4.0"
+    loader-utils "^1.4.0"
+    neo-async "^2.6.1"
+    node-libs-browser "^2.2.1"
+    schema-utils "^1.0.0"
+    tapable "^1.1.3"
+    terser-webpack-plugin "^1.4.5"
+    watchpack "^1.7.4"
+
+express@^4.17.1:
+  version "4.17.1"
+  resolved "https://registry.yarnpkg.com/express/-/express-4.17.1.tgz"
+  integrity sha512-YVXO0QkUTdTtF5NBZgnJ9pNxnN11P2nV9S+aEzN+KhFiZ79OfC/yoEJPh9fNmwJ28e1chBKNxiIp1+XGuI1KUw==
+  dependencies:
+    accepts "~1.3.7"
+    array-flatten "1.1.1"
+    body-parser "1.19.0"
+    content-disposition "0.5.3"
+    content-type "~1.0.4"
+    cookie "0.4.0"
+    cookie-signature "1.0.6"
+    debug "2.6.9"
+    depd "~1.1.2"
+    encodeurl "~1.0.2"
+    escape-html "~1.0.3"
+    etag "~1.8.1"
+    finalhandler "1.1.2"
+    fresh "0.5.2"
+    merge-descriptors "1.0.1"
+    methods "~1.1.2"
+    on-finished "~2.3.0"
+    parseurl "~1.3.3"
+    path-to-regexp "0.1.7"
+    proxy-addr "~2.0.5"
+    qs "6.7.0"
+    range-parser "~1.2.1"
+    safe-buffer "5.1.2"
+    send "0.17.1"
+    serve-static "1.14.1"
+    setprototypeof "1.1.1"
+    statuses "~1.5.0"
+    type-is "~1.6.18"
+    utils-merge "1.0.1"
+    vary "~1.1.2"
+
+chalk@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz"
+  integrity sha512-mqDZ70VU5bOwl9GfxKNZitxVw1Pp9EYQ0WBPflGuZSmDLAj0lpY08NtfTX6n7JGBBxU6gZHQvZsfYPOSiOz8KA==
+  dependencies:
+    ansi-styles "^3.2.1"
+    escape-string-regexp "^1.0.5"
+    supports-color "^5.3.0"
