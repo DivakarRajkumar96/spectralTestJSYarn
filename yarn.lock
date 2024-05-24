@@ -56,9 +56,9 @@ request@^2.88.0:
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
-underscore@^1.9.1:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.1.tgz"
+underscore@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.12.1.tgz"
   integrity sha512-4+yoI4ya0Xt6gYmTSzgnct9oIa7Emmgkt1UTRt3M94IS2no9MQO5+MW6rMiUNoWyt5e/PY1aKqiNfEog4WMBZA==
 
 debug@^2.6.9:
